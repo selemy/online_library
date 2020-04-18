@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4316832d-105d-4c2f-94ab-99a038b0b2d9" name="Default Changelist" comment="" />
+    <list default="true" id="4316832d-105d-4c2f-94ab-99a038b0b2d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,9 @@
     <dirStrings>
       <dir>F:\Kursy\laravel\my_project\online-library\</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
@@ -203,6 +208,7 @@
     <option name="width" value="1637" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -586,12 +592,12 @@
       <workItem from="1586448690861" duration="3910000" />
       <workItem from="1586607627526" duration="11945000" />
       <workItem from="1586683914227" duration="43919000" />
-      <workItem from="1586881651734" duration="175359000" />
+      <workItem from="1586881651734" duration="175396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253067000" />
+    <option name="totallyTimeSpent" value="253104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

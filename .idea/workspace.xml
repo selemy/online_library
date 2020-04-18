@@ -197,7 +197,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="261" />
     <option name="y" value="89" />
     <option name="width" value="1637" />
@@ -527,6 +527,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests/Book" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -585,12 +586,12 @@
       <workItem from="1586448690861" duration="3910000" />
       <workItem from="1586607627526" duration="11945000" />
       <workItem from="1586683914227" duration="43919000" />
-      <workItem from="1586881651734" duration="175088000" />
+      <workItem from="1586881651734" duration="175359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252796000" />
+    <option name="totallyTimeSpent" value="253067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,7 +603,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="89" width="1637" height="800" extended-state="0" />
+    <frame x="261" y="89" width="1637" height="800" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18579581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

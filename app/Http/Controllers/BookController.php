@@ -75,7 +75,13 @@ class BookController extends Controller
     {
         $author = DB::table('books_authors')->select('name')->where('id', '=', $book['author_id'])->first()->name;
         $genres = Books_genre::all();
-        return view('online_library.layouts.blocks.my_library.files.edit.index', compact('book', 'genres', 'author'))->with('message','Книга успешно обновлена');
+//        dd($genres->first()->name);
+
+            $image = Book::all();
+
+//            dd($image->first()->cover_path);
+
+        return view('online_library.layouts.blocks.my_library.files.edit.index', compact('book', 'genres', 'author', 'image'))->with('message','Книга успешно обновлена');
     }
 
     /**
@@ -101,6 +107,9 @@ class BookController extends Controller
             $data['year'] = $request->input('year');
             $data['author_id'] = $book_author->id;
             $data['genre_id'] = $request->input('genre_id');
+
+
+
             $data['description'] = $request->input('description');
             $data['file_path'] = $file_book->store("books/{$date}", 'public');
             $data['cover_path'] = $file_image->store("images/{$date}", 'public');

@@ -15,7 +15,8 @@
             @method('put')
 
             <div class="custom-file mt-3 mb-3">
-                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file_path" value="{{ $book->file_path }}" required>
+                <input type="file" class="custom-file-input" id="validatedCustomFile" name="file_path" value="{{ $image->first()->cover_path }}" required>{{ $image->first()->cover_path }}
+{{--                @dd($image->first()->cover_path)--}}
                 <label class="custom-file-label" for="validatedCustomFile">Файл книги</label>
 
                 @error('file_path')
@@ -65,7 +66,8 @@
                 <div class="col">
                     <select class="custom-select @error('genre_id') is-invalid @enderror" id="genre_id" name="genre_id"
                             required>
-                        <option value="">Выберите жанр</option>
+
+                        <option value="">{{ $genres->first()->name }}</option>
 
                         @include('online_library.layouts.blocks.my_library.files.genre.index')
 
